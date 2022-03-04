@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'lato';
+}
+
+h1 {
+    color: #f76c6c; 
+  }
+  
+header, footer {
+    background-color: salmon;
+}  
+
+nav h1{
+    margin-top:0 ;
+}
+
+.white_text, ul {
+    color: white;
+}
+
+ul{
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li{
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+.bear{
+    background-image: url(images/bear.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.h1bg{
+    font-size: 3rem;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+article{
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(138, 138, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles_block{
+    width: 80%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer {
+    height: 50px;
+}
