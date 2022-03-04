@@ -71,9 +71,18 @@ article{
     height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     margin: 0 auto;
     gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: salmon;
 }
 
 footer p{
