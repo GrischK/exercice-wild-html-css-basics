@@ -42,7 +42,8 @@ p{
 .bear{
     background-image: url(images/bear.jpg);
     background-size: cover;
-    height: 700px;
+    width: 100%;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,4 +92,16 @@ footer p{
 
 footer {
     height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .bear{
+        background-position: center;
+    }
+
+    .articles_block{
+        grid-template-columns:1fr;
+        height: auto;
+    }
+
 }
